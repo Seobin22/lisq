@@ -52,6 +52,21 @@ int delete_data(int data) {
     }
     return -999;
 }
+/*int delete(node** A,int item){
+node*ptr=NULL,*ptrb=NULL;
+int value;
+for(ptr=(*A);ptr;ptrb=ptr.ptr=ptr->next){
+if(ptr->data==item){value=ptr->data;
+if(ptrb==NULL)(*A)=ptr->next;
+else ptrb->next=ptr->next;
+free(ptr);
+return value;
+}
+
+}
+
+}*/
+
 
 int search(int data) {
     int index = 0;
